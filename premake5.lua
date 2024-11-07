@@ -25,15 +25,15 @@ project "ImGui"
 		systemversion "latest"
     	cppdialect "C++17"
 
-	filter "configuration:Debug"
+	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "On"
 
-	filter "configuration:Release"
+	filter "configurations:Release"
 		runtime "Release"
 		symbols "On"
 
-	filter "configuration:Dist"
+	filter "configurations:Dist"
 		runtime "Release"
 		optimize "On"
 		symbols "Off"
